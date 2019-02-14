@@ -21,10 +21,10 @@ Set up a Rabbit Message Queue to hold logging information
 
 /total - return the sum of all GDPs using the JSON format with country name being returned as Total
 
-/gpd/{country name} - return using the JSON format the record for that country. Must be spelled as in the data!  
+/gdp/{country name} - return using the JSON format the record for that country. Must be spelled as in the data!  
 Log that someone looked up this country
 
 ### POST
 
-/gpd - loads the data from the provided JSON file
+/gdp - loads the data from the provided JSON file
 
